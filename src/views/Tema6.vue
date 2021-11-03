@@ -52,15 +52,15 @@
           .anexo__icono
             img(src="@/assets/template/icono-zip.svg")
           .anexo__texto
-            p.mb-0 Eleven (rig del personaje)
-            p Archivo principal .blend, en el cual se encuentra el personaje con el rig.
+            p.mb-0 Eleven (#[i rig] del personaje)
+            p Archivo principal #[i .blend], en el cual se encuentra el personaje con el #[i rig].
       .col-lg-6(data-aos="slide-right")
         a.anexo.mb-4(:href="obtenerLink('/downloads/Orient_custom_shape.zip')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-zip.svg")
           .anexo__texto
             p.mb-0 Addon (Orient custom shape.zip)
-            p Este es un archivo complementario que se instala en Blender en la sección de preferencias – Addons.
+            p Este es un archivo complementario que se instala en Blender en la sección de preferencias – #[i addons].
     
     
 

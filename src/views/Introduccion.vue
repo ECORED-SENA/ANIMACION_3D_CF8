@@ -20,7 +20,7 @@
               .bloque-texto-g__texto.p-5
                 br
                 br
-                p.mb-5 En este contenido formativo se verá el rig como el proceso aplicado a un sistema de huesos, que ayudará a dar movimiento y deformación a una malla, modificando en ella los weights (pesos) y creando controladores para que se conecten a los huesos y puedan tener control sobre el movimiento. Además, se verá cómo generar blendshapes con los que se podrán crear las expresiones faciales de los personajes y, finalmente, hacer los ajustes finales necesarios para que el modelo quede listo para ser animado.
+                p.mb-5 En este contenido formativo se verá el #[i rig] como el proceso aplicado a un sistema de huesos, que ayudará a dar movimiento y deformación a una malla, modificando en ella los #[i weights] (pesos) y creando controladores para que se conecten a los huesos y puedan tener control sobre el movimiento. Además, se verá cómo generar #[i blendshapes] con los que se podrán crear las expresiones faciales de los personajes y, finalmente, hacer los ajustes finales necesarios para que el modelo quede listo para ser animado.
                 br
                 br
                 

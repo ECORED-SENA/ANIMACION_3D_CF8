@@ -18,7 +18,7 @@
 
         p(data-aos="slide-right") Para alistar un personaje en el proceso de #[i rigging ]manual se debe organizar primero el punto de pivote, el cual es la referencia central y en las que los diferentes tipos de sistemas de coordenadas funcionarán como eje principal, limpiando las transformaciones para resetear la información. 
 
-        p(data-aos="slide-left") Luego, se pasará a organizar jerárquicamente el sistema de huesos y controladores y finalmente se miran los Constraints que son la forma de controlar las propiedades de un objeto y la herramienta Armature y huesos; para profundizar en el tema se invita a revisar el siguiente objeto de aprendizaje: 
+        p(data-aos="slide-left") Luego, se pasará a organizar jerárquicamente el sistema de huesos y controladores y finalmente se miran los #[i Constraints] que son la forma de controlar las propiedades de un objeto y la herramienta #[i Armature] y huesos; para profundizar en el tema se invita a revisar el siguiente objeto de aprendizaje: 
 
     .row.align-items-center.bg-color4.p-5(data-aos="slide-right")
       .col-lg-12.mb-4.mb-lg-0
@@ -91,7 +91,7 @@
                 figure
                   .video
                     iframe(width="560" height="315" src="https://www.youtube.com/embed/W94YAVz7XHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-                  figcaption.mb-5  Constraints
+                  figcaption.mb-5  #[i Constraints]
             .row.justify-content-center
               .col-md-5.mb-4.mb-md-0
                 p 
@@ -102,7 +102,7 @@
                 figure
                   .video
                     iframe(width="560" height="315" src="https://www.youtube.com/embed/Pzpn60JYfc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-                  figcaption.mb-5 Armature
+                  figcaption.mb-5 #[i Armature]
 
 
 

@@ -15,7 +15,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema_4/img_1.png')})`}"
           )
           .bloque-texto-g__texto.p-5(style="right: 310px;")
-            p Una vez realizado un análisis a conciencia de la geometría y las transformaciones de los objetos, se puede iniciar el proceso de construcción del rig. A continuación, se estructura un esqueleto para un bípedo, que es la estructura más usada en la industria de la animación y dará las bases suficientes para profundizar más adelante.
+            p Una vez realizado un análisis a conciencia de la geometría y las transformaciones de los objetos, se puede iniciar el proceso de construcción del #[i rig]. A continuación, se estructura un esqueleto para un bípedo, que es la estructura más usada en la industria de la animación y dará las bases suficientes para profundizar más adelante.
 
     .row.justify-content-center.d-block.d-lg-none
       .col-lg-10.d-block.d-lg-none
@@ -86,7 +86,9 @@
                     iframe(width="560" height="315" src="https://www.youtube.com/embed/rYuHxsySABQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
                   figcaption.mb-5
 
-    p.mb-5(data-aos="flip-up") Luego se realizará el enlace de la cadena IK a la cadena DEF y la creación de un Switch IK/FK, que es un sistema de encendido. También se refleja el sistema construido de los brazos y, finalmente, se pasará a la creación del sistema de huesos de los dedos de la mano, enlazándolos a la cadena de enlace de los brazos, por lo que se invita a revisar los siguientes videos:
+    p.mb-5(data-aos="flip-up") Luego se realizará el enlace de la cadena IK a la cadena DEF y la creación de un #[i Switch IK/FK], que es un sistema de encendido. También se refleja el sistema construido de los brazos y, finalmente, se pasará a la creación del sistema de huesos de los dedos de la mano, enlazándolos a la cadena de enlace de los brazos, por lo que se invita a revisar los siguientes videos:
+
+    h2.mb-5 Creación de esqueleto y sistemas de control
 
     TabsA.color-primario.mb-5(data-aos="slide-left")      
       .tarjeta.bg_tar01.p-4(titulo="Enlace cadena IK a cadena DEF")
@@ -98,14 +100,14 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/wpm2q_D-18s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Enlace cadena IK a cadena DEF
 
-      .tarjeta.bg_tar01.p-4(titulo="Creación de un SWITCH IK/FK ")
-        h4 Creación de un SWITCH IK/FK 
-        p Dado que la cadena de deformadores está controlada por los sistemas IK y FK, es necesario crear un SWITCH o interruptor que indique cuándo un sistema está encendido y cuándo el otro está apagado.  
+      .tarjeta.bg_tar01.p-4(titulo="Creación de un <em>SWITCH IK/FK</em> ")
+        h4 Creación de un #[i SWITCH IK/FK] 
+        p Dado que la cadena de deformadores está controlada por los sistemas IK y FK, es necesario crear un #[i SWITCH] o interruptor que indique cuándo un sistema está encendido y cuándo el otro está apagado.  
 
         figure.mt-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/AmwZZVxcUxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Creación de un Switch IK/FK
+            figcaption Creación de un #[i Switch IK/FK]
       .tarjeta.bg_tar01.p-4(titulo="Reflejo del sistema de brazos")
         h4 Reflejo del sistema de brazos
         p Por medio de la herramienta SIMMETRIZE se obtendrá un reflejo exacto de todo lo construido hasta ahora; además, se hace necesario ajustar ciertos detalles a la parte reflejada.  
@@ -129,6 +131,8 @@
             figcaption Enlace de los dedos con la cadena del brazo 
 
     p.mb-5(data-aos="flip-up") Enseguida, se realizará la cadena de control de la espalda y el enlace con los brazos. Posteriormente, se construirá el sistema DEF y FK de las piernas. Luego, la creación del IK de la pierna y el #[i Foot Roll]. Así mismo, el enlace de cadenas de la pierna y un #[i switch] de encendido de los sistemas de cadena. Por último, se ajustará el sistema del centro de gravedad COG, todo el proceso se puede ver en el siguiente recurso de aprendizaje.
+
+    h2.mb-5 Creación de esqueleto y sistemas de control
 
     TabsC.color-primario.mb-5(data-aos="slide-right")
       .py-3.py-md-4(titulo="Cadena CTRL espalda y enlace con brazos")
@@ -161,15 +165,15 @@
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/gEeN-TPRtGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
                 figcaption Ver video Creación de pierna IK y Foot Roll
 
-      .py-3.py-md-4(titulo="Enlace de cadenas de la pierna y Switch IK/FK")
-        h4 Enlace de cadenas de la pierna y Switch IK/FK
+      .py-3.py-md-4(titulo="Enlace de cadenas de la pierna y <em>Switch IK/FK</em>")
+        h4 Enlace de cadenas de la pierna y #[i Switch IK/FK]
         p Finalizando la construcción de las piernas, se deben enlazar las diferentes cadenas por medio de #[i constraints] y crear el interruptor, al igual que se hizo en los brazos, para elegir qué sistema manipulará la geometría. 
         .row.justify-content-center.mt-5
           .col-lg-10  
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/O9DCc65APFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-                figcaption Ver video Enlace de cadenas de la pierna y Switch IK/FK
+                figcaption Ver video Enlace de cadenas de la pierna y #[i Switch IK/FK]
 
       .py-3.py-md-4(titulo="Ajuste del COG")
         h4 Ajuste del COG
