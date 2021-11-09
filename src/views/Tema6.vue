@@ -42,7 +42,7 @@
 
     figure.mb-5(data-aos="zoom-out-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/NBk5OtTqwcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tW6X3Q9pZ5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 A continuación, puede obtener los archivos fuente que fueron utilizados durante el proceso:
 

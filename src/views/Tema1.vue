@@ -31,7 +31,7 @@
         p.BorTit1 #[strong Vídeo] #[br] #[i Riggify]
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/5DqlxXSJjM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/CLSfvYaXrZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5(data-aos="flip-up") Blender facilita el #[i rig] a partir del uso de #[i addons] propios del programa, para poder utilizar la malla se deberán activar de la siguiente manera:
 
@@ -126,7 +126,7 @@
         p.BorTit1 #[strong Vídeo] #[br] #[i Autorig Mixamo]
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/6xNC2AXB-_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/CtpB5PUiF4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 A continuación, se revisan los pasos importantes para #[i autoriggear] un personaje a través de la herramienta Mixamo de #[i Adobe]: 
 
@@ -207,10 +207,10 @@
 
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-2
-        p.BorTit1 #[strong Vídeo] #[br] #[i Autorig Mixamo]
+        p.BorTit1 #[strong Vídeo] #[br] #[i Skinning]
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/8BGAl7vWAc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gcfzbdaq7bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 A continuación, se verá el proceso de asignación de pasos a la malla después de haberse aplicado #[i rig] mediante rigify:
 

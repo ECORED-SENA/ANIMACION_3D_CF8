@@ -46,14 +46,14 @@
           .col-lg-10  
             figure
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/V6tbvN4idXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/voPYNPvQkEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .py-3.py-md-4(titulo="<em>Scripting</em>")
         h4 #[i Scripting]
         .row.justify-content-center.mt-5
           .col-lg-10  
             figure
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/n8OZ7yRSzKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/vr8Sxu_57Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center
       .col-lg-6(data-aos="slide-left")
